@@ -1,0 +1,148 @@
+/* =========================
+   Taos River Adventure Theme (styles.css)
+   ========================= */
+
+:root {
+  --gradient-start: #007f7f;   /* Deep turquoise */
+  --gradient-mid:   #349e8f;   /* River green */
+  --gradient-end:   #f2c849;   /* Golden desert light */
+
+  --accent-light:   #fefefc;   /* near white */
+  --accent-dark:    #1a3c3c;   /* river rock dark */
+
+  --font-base:      1rem;
+  --font-scale-sm:  0.875rem;
+  --font-scale-lg:  1.125rem;
+  --font-scale-xl:  1.5rem;
+
+  --space-xs:       0.25rem;
+  --space-sm:       0.5rem;
+  --space-md:       1rem;
+  --space-lg:       1.5rem;
+  --space-xl:       2rem;
+}
+
+/* Base Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+  color: var(--accent-dark);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header & Navbar */
+.navbar {
+  background: rgba(254, 254, 252, 0.95);
+  padding: var(--space-sm) var(--space-md);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent-dark);
+}
+
+.navbar nav a {
+  margin-left: var(--space-md);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.navbar nav a:hover {
+  color: var(--gradient-end);
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+  color: var(--accent-light);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-sm);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto var(--space-lg);
+}
+
+.btn {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-lg);
+  border: 2px solid var(--accent-light);
+  border-radius: 0.5rem;
+  font-weight: 600;
+  color: var(--accent-light);
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+.btn-primary {
+  background: var(--accent-light);
+  color: var(--accent-dark);
+}
+.btn-primary:hover {
+  background: var(--accent-dark);
+  color: var(--accent-light);
+  transform: translateY(-2px);
+}
+
+/* Cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+  padding: var(--space-lg) var(--space-md);
+}
+@media (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  background: rgba(254, 254, 252, 0.9);
+  padding: var(--space-md);
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Footer */
+.footer {
+  background: rgba(26, 60, 60, 0.95);
+  color: var(--accent-light);
+  text-align: center;
+  padding: var(--space-md);
+  font-size: var(--font-scale-sm);
+}
