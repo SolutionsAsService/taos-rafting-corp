@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build site and check internal links
+        run: npm run check
+      - name: Check required output files
+        run: |
+          for f in index.html trips.html about.html contact.html 404.html sitemap.xml robots.txt site.webmanifest favicon.ico; do
+            test -f "dist/$f" || { echo "missing dist/$f"; exit 1; }
+          done
