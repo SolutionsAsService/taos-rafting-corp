@@ -1,0 +1,4 @@
+# build output (Vercel builds it from source on every push)
+dist/
+node_modules/
+.DS_Store

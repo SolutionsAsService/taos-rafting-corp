@@ -1,0 +1,16 @@
+{
+  "name": "taos-rafting-corp",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Website for Taos River Adventures — family-run rafting on the Rio Grande, Taos NM",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && node scripts/serve.mjs",
+    "check": "node build.mjs && node scripts/check-links.mjs",
+    "images": "node scripts/optimize-images.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

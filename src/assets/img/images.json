@@ -1,0 +1,79 @@
+{
+  "bighorn-sheep": {
+    "width": 1800,
+    "height": 1350,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ],
+    "jpg": 1200
+  },
+  "gorge-bridge-bighorn": {
+    "width": 2400,
+    "height": 1800,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ],
+    "jpg": 1200
+  },
+  "gorge-overlook": {
+    "width": 2400,
+    "height": 1636,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ],
+    "jpg": 1200
+  },
+  "gorge-plateau": {
+    "width": 2000,
+    "height": 1333,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ],
+    "jpg": 1200
+  },
+  "gorge-river-bend": {
+    "width": 2400,
+    "height": 3604,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ],
+    "jpg": 1200
+  },
+  "sunset-mesa": {
+    "width": 2400,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ],
+    "jpg": 1200
+  },
+  "wildflowers-ute-mountain": {
+    "width": 2048,
+    "height": 1366,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ],
+    "jpg": 1200
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "_readme": "This is the ONE file to edit for site content. Any text value that starts with \"TODO\" is treated as missing: the site hides it automatically. Replace the TODO text with the real value and it appears on the next deploy. Run `node build.mjs` to check; it lists every remaining TODO. See README.md > Editing content.",
+  "business": {
+    "name": "Taos River Adventures",
+    "logoText": "Taos Rafting Co",
+    "tagline": "Experience the wild spirit of the Rio Grande with expert guides and unforgettable moments in Northern New Mexico.",
+    "shortDescription": "Whitewater rafting, scenic floats and private trips on the Rio Grande near Taos, New Mexico.",
+    "foundedYear": "1998",
+    "town": "Taos",
+    "region": "NM",
+    "regionName": "New Mexico",
+    "country": "US",
+    "url": "https://taos-rafting-corp.vercel.app",
+    "legalNameNote": "TODO: confirm the official business name. The old site used both 'Taos River Adventures' and 'Taos Rafting Co'."
+  },
+  "contact": {
+    "email": "info@taosraftingco.com",
+    "phone": "TODO: real phone number. The old site showed (575) 555-RAFT (7238), but 555 numbers are fictional and cannot be dialled.",
+    "phoneHref": "TODO: same phone in +1XXXXXXXXXX form, for tap-to-call",
+    "hours": "8am – 6pm daily",
+    "hoursSchema": "Mo-Su 08:00-18:00",
+    "streetAddress": "TODO: real street address. The old site showed '123 River Rd, Taos, NM 87571', which looks like a placeholder.",
+    "postalCode": "TODO: ZIP code of the address above",
+    "locationNote": "TODO: e.g. 'Just 10 minutes from downtown Taos' (from the old site; confirm once the real address is set)",
+    "meetingPoint": "TODO: where guests meet on trip day (place name, parking, what time to arrive)",
+    "mapUrl": "TODO: Google Maps or OpenStreetMap link to the meeting point",
+    "directions": "TODO: driving directions from Taos Plaza / Santa Fe / Albuquerque",
+    "bookingUrl": "TODO: optional online booking link (e.g. FareHarbor/Peek) if you use one. Leave as TODO to keep the email booking form.",
+    "social": [
+      {
+        "label": "Instagram",
+        "handle": "TODO: confirm handle (old site said @taosraftingco)",
+        "url": "TODO: https://www.instagram.com/<handle>/"
+      },
+      {
+        "label": "YouTube",
+        "handle": "TODO: channel name (old site said 'new trip videos on YouTube every month')",
+        "url": "TODO: channel link"
+      }
+    ]
+  },
+  "home": {
+    "heroEyebrow": "Rio Grande · Northern New Mexico",
+    "heroTitle": "Taos River Adventures",
+    "heroText": "Experience the wild spirit of the Rio Grande with expert guides and unforgettable moments in Northern New Mexico.",
+    "heroImage": "gorge-overlook",
+    "features": [
+      {
+        "icon": "rapids",
+        "title": "Whitewater Trips",
+        "text": "Conquer the rapids with guided whitewater tours for thrill-seekers of all levels.",
+        "link": "/trips#whitewater"
+      },
+      {
+        "icon": "sun",
+        "title": "Scenic Floats",
+        "text": "Relax with peaceful river journeys through majestic canyon scenery and wildlife habitat.",
+        "link": "/trips/scenic-float"
+      },
+      {
+        "icon": "family",
+        "title": "Family Adventures",
+        "text": "Safe, memorable rafting experiences for families and groups — kids welcome!",
+        "link": "/trips#family"
+      }
+    ]
+  },
+  "trips": [
+    {
+      "slug": "half-day-whitewater",
+      "name": "Half-Day Whitewater",
+      "category": [
+        "whitewater",
+        "family"
+      ],
+      "summary": "Perfect for first-timers or families: a 3-hour run through the Lower Gorge with splashes, fun rapids and stunning views.",
+      "description": [
+        "Perfect for first-timers or families, this 3-hour run through the Lower Gorge offers splashes, fun rapids, and stunning views.",
+        "Daily departures."
+      ],
+      "river": "Rio Grande — Lower Gorge",
+      "difficulty": "TODO: rapid class for the Lower Gorge run (e.g. Class II–III)",
+      "duration": "3 hours",
+      "schedule": "Daily departures",
+      "goodFor": "First-timers and families",
+      "minAge": "TODO: minimum age",
+      "fitness": "TODO: fitness level / paddling required",
+      "season": "TODO: season months",
+      "price": "TODO: price per adult / child",
+      "includes": [
+        "TODO: what's included (e.g. guide, raft, PFD, helmet, wetsuit, transport)"
+      ],
+      "meetingTime": "TODO: check-in time(s)",
+      "image": "gorge-river-bend"
+    },
+    {
+      "slug": "full-day-racecourse",
+      "name": "Full-Day Racecourse",
+      "category": [
+        "whitewater"
+      ],
+      "summary": "Challenge yourself with Class III rapids on the iconic Racecourse stretch, with a riverside lunch and expert guides.",
+      "description": [
+        "Challenge yourself with Class III rapids on the iconic Racecourse stretch.",
+        "Includes riverside lunch and expert guides. Great for small groups!"
+      ],
+      "river": "Rio Grande — Racecourse",
+      "difficulty": "Class III",
+      "duration": "Full day",
+      "schedule": "TODO: departure days",
+      "goodFor": "Small groups looking for a challenge",
+      "minAge": "TODO: minimum age",
+      "fitness": "TODO: fitness level / paddling required",
+      "season": "TODO: season months",
+      "price": "TODO: price per adult / child",
+      "includes": [
+        "Riverside lunch",
+        "Expert guides",
+        "TODO: other inclusions (gear, transport, etc.)"
+      ],
+      "meetingTime": "TODO: check-in time(s)",
+      "durationNote": "TODO: confirm this trip is full-day (the Racecourse is often run as a half-day)",
+      "image": "gorge-plateau"
+    },
+    {
+      "slug": "scenic-float",
+      "name": "Scenic Float",
+      "category": [
+        "relaxed",
+        "family"
+      ],
+      "summary": "Drift peacefully down the mellow stretches of the river — perfect for photographers, bird-watchers and nature lovers.",
+      "description": [
+        "Drift peacefully down the mellow stretches of the river, perfect for photographers, bird-watchers, and nature lovers.",
+        "Minimal paddling required."
+      ],
+      "river": "Rio Grande — mellow stretches",
+      "difficulty": "TODO: water class (e.g. Class I–II)",
+      "duration": "TODO: trip length",
+      "schedule": "TODO: departure days",
+      "goodFor": "Photographers, bird-watchers and nature lovers",
+      "minAge": "TODO: minimum age",
+      "fitness": "Minimal paddling required",
+      "season": "TODO: season months",
+      "price": "TODO: price per adult / child",
+      "includes": [
+        "TODO: what's included"
+      ],
+      "meetingTime": "TODO: check-in time(s)",
+      "image": "bighorn-sheep"
+    },
+    {
+      "slug": "private-trips",
+      "name": "Custom Private Trips",
+      "category": [
+        "private"
+      ],
+      "summary": "Create your own experience with a private guide and boat — a fully tailored adventure, half or full day.",
+      "description": [
+        "Want to create your own experience? Book a private guide and boat for a fully tailored adventure.",
+        "Half or full day options available."
+      ],
+      "river": "TODO: which stretches are available for private trips",
+      "difficulty": "TODO: range of difficulty available",
+      "duration": "Half or full day",
+      "schedule": "TODO: availability",
+      "goodFor": "Groups who want a boat and guide to themselves",
+      "minAge": "TODO: minimum age",
+      "fitness": "TODO: fitness level",
+      "season": "TODO: season months",
+      "price": "TODO: private trip pricing",
+      "includes": [
+        "Private guide",
+        "Private boat",
+        "TODO: other inclusions"
+      ],
+      "meetingTime": "TODO: check-in time(s)",
+      "image": "gorge-overlook"
+    }
+  ],
+  "about": {
+    "intro": "Born from the river. Raised by the canyon. We live for water, wilderness, and bringing people together outside.",
+    "sections": [
+      {
+        "title": "Our Roots",
+        "text": "Founded in 1998 by locals and lifelong river runners, Taos River Adventures started as a two-boat operation and has grown into one of New Mexico’s top outdoor outfitters."
+      },
+      {
+        "title": "Our Mission",
+        "text": "We’re here to share the magic of the Rio Grande. Our trips are guided by a deep respect for nature, Indigenous lands, and the joy of safe, authentic adventure."
+      },
+      {
+        "title": "Meet the Team",
+        "text": "Our guides are certified, passionate, and fun — and many have been with us for over a decade. Whether you’re paddling hard or floating easy, they’ve got your back."
+      }
+    ],
+    "familyStory": [
+      "TODO: the family's own story — who started it, how the family is involved today (2–4 short paragraphs, one per line in this list)"
+    ],
+    "guides": [
+      {
+        "name": "TODO: guide name",
+        "role": "TODO: e.g. Owner / Head guide",
+        "bio": "TODO: one or two sentences",
+        "photo": "TODO: optional: photo name added to the images list"
+      }
+    ]
+  },
+  "safety": {
+    "intro": "Our guides are certified, passionate, and fun — and many have been with us for over a decade. Whether you’re paddling hard or floating easy, they’ve got your back.",
+    "details": [
+      {
+        "title": "Guide certifications",
+        "text": "TODO: which certifications guides hold (e.g. Wilderness First Responder, CPR, swiftwater rescue)"
+      },
+      {
+        "title": "Safety briefing",
+        "text": "TODO: describe the pre-trip safety talk"
+      },
+      {
+        "title": "Gear we provide",
+        "text": "TODO: gear you provide (PFDs, helmets, wetsuits, splash jackets...)"
+      },
+      {
+        "title": "Age & weight requirements",
+        "text": "TODO: age and weight requirements"
+      },
+      {
+        "title": "Permits",
+        "text": "TODO: outfitter permit / licence details — only if you want them listed"
+      }
+    ],
+    "whatToBringNote": "A general checklist for a day on the river. Ask us if you’re unsure about anything for your trip.",
+    "whatToBring": [
+      "Sunscreen, sunglasses with a strap, and a hat",
+      "A refillable water bottle",
+      "Shoes that strap securely to your feet — no flip-flops",
+      "Quick-drying clothes (avoid cotton)",
+      "A dry change of clothes and a towel for after the trip"
+    ],
+    "guestTips": [
+      "Tell us about any medical conditions, allergies or swimming concerns when you book.",
+      "Listen to your guide — they know the river.",
+      "Ask questions! There’s no such thing as a silly question on the river."
+    ]
+  },
+  "faq": [
+    {
+      "q": "Do I need rafting experience?",
+      "a": "No. Our Half-Day Whitewater trip through the Lower Gorge is perfect for first-timers and families."
+    },
+    {
+      "q": "Are kids welcome?",
+      "a": "Yes — kids are welcome! We run rafting experiences for families and groups. Get in touch and we’ll help you choose the right trip for your family."
+    },
+    {
+      "q": "Which trip has the biggest rapids?",
+      "a": "The Full-Day Racecourse, with Class III rapids on the iconic Racecourse stretch."
+    },
+    {
+      "q": "Is lunch included?",
+      "a": "The Full-Day Racecourse includes a riverside lunch."
+    },
+    {
+      "q": "Is there a trip without much paddling?",
+      "a": "Yes — the Scenic Float drifts down the mellow stretches of the river with minimal paddling required."
+    },
+    {
+      "q": "Can we have a boat to ourselves?",
+      "a": "Yes. Book a private guide and boat for a fully tailored adventure — half or full day options are available."
+    },
+    {
+      "q": "How often do trips run?",
+      "a": "The Half-Day Whitewater trip has daily departures. Contact us for availability on other trips."
+    },
+    {
+      "q": "How do I book?",
+      "a": "Send us a booking request with the form on our Book & Contact page, or email us directly. We’re available 8am – 6pm daily."
+    },
+    {
+      "q": "How much does a trip cost?",
+      "a": "TODO: prices, or where to find them"
+    },
+    {
+      "q": "What is your cancellation policy?",
+      "a": "TODO: cancellation / refund policy summary"
+    },
+    {
+      "q": "What happens if the weather turns or the river is high or low?",
+      "a": "TODO: weather and river-level policy"
+    },
+    {
+      "q": "What's the minimum age?",
+      "a": "TODO: minimum ages per trip"
+    }
+  ],
+  "policies": [
+    {
+      "title": "Cancellation & refunds",
+      "text": "TODO: cancellation and refund policy"
+    },
+    {
+      "title": "Waivers",
+      "text": "TODO: waiver requirements (who signs, when, link to online waiver if any)"
+    },
+    {
+      "title": "Weather & river levels",
+      "text": "TODO: what happens when conditions change"
+    },
+    {
+      "title": "Deposits & payment",
+      "text": "TODO: deposit and payment terms"
+    }
+  ],
+  "reviews": [],
+  "_reviewsHelp": "Add real reviews only, e.g. { \"quote\": \"...\", \"name\": \"Jane D.\", \"source\": \"Google\", \"rating\": 5 }. The Reviews section stays hidden while this list is empty.",
+  "galleryNote": "Scenes from the Rio Grande Gorge and the Río Grande del Norte National Monument. Photos from our own trips are coming soon.",
+  "gallery": [
+    "gorge-river-bend",
+    "gorge-overlook",
+    "gorge-plateau",
+    "sunset-mesa",
+    "bighorn-sheep",
+    "gorge-bridge-bighorn",
+    "wildflowers-ute-mountain"
+  ],
+  "images": {
+    "gorge-river-bend": {
+      "alt": "The Rio Grande winding through a deep basalt gorge",
+      "credit": "Bureau of Land Management",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Grande_del_Norte_National_Monument_(15802321047).jpg"
+    },
+    "gorge-overlook": {
+      "alt": "Red rock outcrop above the Rio Grande Gorge with snowy mountains beyond",
+      "credit": "Bureau of Land Management",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:-TravelTuesday_with_My_Public_Lands_(25288841101).jpg"
+    },
+    "gorge-plateau": {
+      "alt": "The gorge carving across the high desert plateau below snow-capped mountains",
+      "credit": "Bureau of Land Management",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:-conservationlands15_Social_Media_Takeover,_November,_Top_15_Places_to_View_Wildlife_on_National_Conservation_Lands_(22987945005).jpg"
+    },
+    "sunset-mesa": {
+      "alt": "Evening clouds over the mesas of the Río Grande del Norte National Monument",
+      "credit": "Bureau of Land Management",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Grande_del_Norte_NM_(9424751744).jpg"
+    },
+    "bighorn-sheep": {
+      "alt": "A bighorn sheep standing among sagebrush above the gorge",
+      "credit": "Bureau of Land Management",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Grande_del_Norte_National_Monument_(15368431503).jpg"
+    },
+    "gorge-bridge-bighorn": {
+      "alt": "Sagebrush near the Rio Grande Gorge Bridge outside Taos, with mountains on the horizon",
+      "credit": "Funknendai",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rio_Grande_Gorge_Bridge_with_big_horn_sheep.jpg"
+    },
+    "wildflowers-ute-mountain": {
+      "alt": "Yellow wildflowers in bloom below a volcanic mountain",
+      "credit": "Bureau of Land Management",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Grande_del_Norte_National_Monument_(15800785130).jpg"
+    }
+  },
+  "_photosHelp": "Only use photos you own or that are licensed for reuse AND show no other company's name or logo (boats, PFDs, vans, shirts). Add photos/<name>.jpg, run `npm run images`, then reference <name> here and add an entry under images with alt/credit/license."
+}
