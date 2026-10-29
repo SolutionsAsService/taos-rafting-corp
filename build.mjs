@@ -165,7 +165,7 @@ function footer() {
     '<div><h2>Trips</h2><ul>' + tripLinks + '</ul></div>\n' +
     '<div><h2>Explore</h2><ul>' + more.map(([h, l]) => '<li><a href="' + h + '">' + l + '</a></li>').join('') + '</ul></div>\n' +
     '<div><h2>Contact</h2><ul>' + contactItems.join('') + '<li><a href="/contact">Request a booking →</a></li></ul></div>\n' +
-    '</div>\n<div class="footer-bottom"><p>&copy; ' + YEAR + ' ' + esc(B.name) + '. All rights reserved.</p><p>' + esc(B.town) + ', ' + esc(B.regionName) + ' · Rio Grande</p></div>\n</div>\n</footer>';
+    '</div>\n<div class="footer-bottom"><p>&copy; ' + YEAR + ' ' + esc(B.name) + '. All rights reserved.</p><p>' + esc(B.town) + ', ' + esc(B.regionName) + ' · Rio Grande</p><p><a href="https://demo.ultimatebusinessmachines.com/portfolio">Part of the Ultimate Business Machines portfolio</a></p></div>\n</div>\n</footer>';
 }
 
 const waves = '<div class="waves" aria-hidden="true">' +
